@@ -76,12 +76,30 @@ header {
     border-radius: 20% 0% 0% 20%;
 }
 
-
+.ensemble-recherche {
+    display: inline-flex;
+    overflow: hidden;
+}
 
 .champ-recherche-localisation {
     height: 60px;
+    border-top: solid 2px;
+    border-left: solid 2px;
+    border-bottom: solid 2px;
+    border-right: solid 0px;
+    border-color: #f2f2f2;
+    box-shadow: 0px;
 }
 
 .boutton-rechercher-localisation {
-    height: 66px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background-color: #0065fc;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 0% 10% 10% 0%;
+    border: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
