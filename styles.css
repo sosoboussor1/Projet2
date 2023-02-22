@@ -1,6 +1,8 @@
 body {
     max-width: 1400px;
     font-family: Raleway, sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 ol {
@@ -14,7 +16,6 @@ header {
 
 .logo-header {
     max-width: 60px;
-    margin-left: 50px;
     margin-top: 35px;
 }
 
