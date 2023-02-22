@@ -1,3 +1,7 @@
 body {
     max-width: 1400px;
 }
+
+ol {
+    list-style-type: none;
+}
