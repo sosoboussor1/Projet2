@@ -19,19 +19,20 @@ header {
 }
 
 .nav-header {
- text-align: end;
- vertical-align: bottom;
+    text-align: end;
+    vertical-align: bottom;
 }
 
 .list-nav-header {
     display: inline-flex;
     gap: 50px;
+    padding-top: 20px;
 }
 
 .item-nav-header {
     text-decoration: none;
     color: black;
-    padding-top: 22px;
+    padding-top: 42px;
     padding-left: 15px;
     padding-right: 15px;
     font-weight: 200;
@@ -44,10 +45,12 @@ header {
 
 .item-nav-header:hover {
     border-top: solid;
-    border-color: blue;
+    border-color: #0065fc;
+    color: #0065fc;
 }
 
 .item-nav-header:focus {
     border-top: solid;
-    border-color: blue;
+    border-color: #0065fc;
+    color: #0065fc;
 }
