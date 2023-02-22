@@ -5,3 +5,28 @@ body {
 ol {
     list-style-type: none;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.nav-header {
+ text-align: end;
+}
+
+.list-nav-header {
+    display: inline-flex;
+    gap: 50px;
+}
+
+.item-nav-header {
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+}
+
+.item-nav-header:hover {
+    border-top: solid;
+    border-color: blue;
+}
