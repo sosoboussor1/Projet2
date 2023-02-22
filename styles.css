@@ -1,5 +1,6 @@
 body {
     max-width: 1400px;
+    font-family: Raleway, sans-serif;
 }
 
 ol {
@@ -13,12 +14,13 @@ header {
 
 .logo-header {
     max-width: 60px;
-    padding-left: 50px;
-    padding-top: 35px;
+    margin-left: 50px;
+    margin-top: 35px;
 }
 
 .nav-header {
  text-align: end;
+ vertical-align: bottom;
 }
 
 .list-nav-header {
@@ -29,7 +31,15 @@ header {
 .item-nav-header {
     text-decoration: none;
     color: black;
-    padding-top: 20px;
+    padding-top: 22px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 200;
+}
+
+.it2 {
+    padding-right: 32px;
+    padding-left: 32px;
 }
 
 .item-nav-header:hover {
