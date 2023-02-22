@@ -11,6 +11,12 @@ header {
     grid-template-columns: 3fr 1fr;
 }
 
+.logo-header {
+    max-width: 60px;
+    padding-left: 50px;
+    padding-top: 35px;
+}
+
 .nav-header {
  text-align: end;
 }
@@ -27,6 +33,11 @@ header {
 }
 
 .item-nav-header:hover {
+    border-top: solid;
+    border-color: blue;
+}
+
+.item-nav-header:focus {
     border-top: solid;
     border-color: blue;
 }
