@@ -144,3 +144,20 @@ header {
 .elem-filtre:focus {
     background-color: #DEEBFF;
 }
+
+.container-hebergements{
+    display: grid;
+    grid-template-columns: 10fr 4fr;
+    gap: 35px;
+}
+
+.hebergements-marseille {
+    background-color: #0065fc;
+    height: 50px;
+}
+
+.hebergements-populaires {
+    background-color: aqua;
+    height: 50px;
+}
+
