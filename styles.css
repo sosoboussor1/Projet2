@@ -163,6 +163,30 @@ header {
     color: #0065fc;
 }
 
+.card1 {
+    max-width: 245px;
+    background-color: #FFFFFF;
+    border: solid 5px;
+    border-color: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.card1 > img {
+    width: 100%;
+    object-fit: cover;
+    border-color: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card1-container > h3{
+    margin-top: -2px;
+}
+
+.card1-container > p{
+    margin-top: -15px;
+}
+
 .card2 {
     display: grid;
     grid-template-columns: 2fr 3fr;
