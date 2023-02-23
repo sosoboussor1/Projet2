@@ -172,7 +172,7 @@ header {
 .card1-img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     border: 5px solid #FFFFFF;
     margin-bottom: -10px;
@@ -196,20 +196,32 @@ header {
 }
 
 .card2 {
-    display: inline-flex;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
     gap: 10px;
     width: 340px;
     height: 140px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .card2-container > h3 {
     margin: 0px;
 }
 
+.card2-container {
+    margin-left: 30px;
+}
+
 .card2-img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.card2-note {
+    margin-top: 30px;
 }
 
 
