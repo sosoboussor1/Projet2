@@ -5,9 +5,13 @@ body {
     margin-left: 50px;
 }
 
-h2 {
+h1 {
     font-size: 22px;
     font-weight: 700;
+}
+
+h2 {
+    font-size: 17px;
 }
 
 ol {
@@ -107,6 +111,10 @@ header {
     padding-right: 15px;
 }
 
+.titre-filtres {
+    font-size: 18px;
+}
+
 .info-filtre {
     font-family: Raleway, serif;
     border: solid 2px;
@@ -120,6 +128,7 @@ header {
 
 .filtres {
     display: flex;
+    font-size: 17px;
     flex-direction: row;
     gap: 30px;
     margin-top: 40px;
@@ -128,6 +137,7 @@ header {
 
 .elem-filtre {
     text-decoration: none;
+    font-size: 17px !important;
     color: black;
     border: solid 3px;
     border-color: #f2f2f2;
@@ -151,13 +161,5 @@ header {
     gap: 35px;
 }
 
-.hebergements-marseille {
-    background-color: #0065fc;
-    height: 50px;
-}
 
-.hebergements-populaires {
-    background-color: aqua;
-    height: 50px;
-}
 
