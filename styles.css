@@ -164,7 +164,7 @@ header {
 }
 
 .card1 {
-    max-width: 245px;
+    width: 245px;
     background-color: #FFFFFF;
     border: solid 5px;
     border-color: #FFFFFF;
@@ -204,11 +204,13 @@ header {
 }
 
 .card2-container > h3 {
-    margin: 0px;
+    margin-top: 10px;
 }
 
 .card2-container {
     margin-left: 30px;
+    margin-right: 5px;
+    margin-bottom: 3px;
 }
 
 .card2-img {
@@ -225,6 +227,62 @@ header {
 .fa-chart-line {
     color: #0065fc;
 }
+
+#hebergements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.hebergements-marseille {
+    flex-basis: 70%;
+    background-color: #f2f2f2;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.hebergements-populaires {
+    justify-content: center;
+    flex-basis: 25%;
+    background-color: #f2f2f2;
+    border-radius: 25px 25px 25px 25px;
+    padding-left: 10px;
+}
+
+.global-marseille {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: center;
+}
+
+.global-populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.populaires-graph {
+    display: flex;
+    flex-direction: row;
+}
+
+.populaires-graph > h2 {
+    flex-basis: 80%;
+}
+
+.fa-chart-line {
+    flex-basis: 20%;
+    margin: auto;
+}
+
+.hebergements-marseille > h2, .hebergements-marseille > h3{
+    margin-left: 68px;
+}
+
+
 
 
 
