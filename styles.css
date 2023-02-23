@@ -157,19 +157,19 @@ header {
 
 .container-hebergements{
     display: grid;
-    grid-template-columns: 10fr 4fr;
+    grid-template-columns: 3fr 1fr;
     gap: 35px;
     margin-top: 40px;
 }
 
-.card {
-    width: 250px;
-    height: 160px;
+.card1 {
+    width: 220px;
+    height: 140px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px 20px 20px 20px;
 }
 
-.card-img {
+.card1-img {
     width: 100%;
     height: 100%;
     object-fit: fill;
@@ -182,17 +182,34 @@ header {
     color: #0065fc;
 }
 
-.card-container {
+.card1-container {
     margin-left: 18px;
 }
 
-.card-container > h3 {
+.card1-container > h3 {
     margin-bottom: -10px;
     font-weight: 700;
 }
 
-.card-container > p {
+.card1-container > p {
     margin-bottom: -10px;
+}
+
+.card2 {
+    display: inline-flex;
+    gap: 10px;
+    width: 340px;
+    height: 140px;
+}
+
+.card2-container > h3 {
+    margin: 0px;
+}
+
+.card2-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
 
 
