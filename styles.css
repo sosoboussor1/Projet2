@@ -23,16 +23,18 @@ ol {
 }
 
 header {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo-header {
+    flex-basis: 75%;
     max-width: 60px;
     margin-top: 35px;
 }
 
 .nav-header {
+    flex-basis: 25%;
     text-align: end;
     vertical-align: bottom;
 }
