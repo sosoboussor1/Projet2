@@ -1,8 +1,7 @@
 body {
     max-width: 1400px;
     font-family: Raleway, sans-serif;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 h1 {
@@ -367,6 +366,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 /*.elem-footer {
@@ -391,3 +391,16 @@ ul {
     margin-bottom: 25px;
 }
 
+/* TABLETTES */
+@media screen and (max-width: 992px){
+    body {
+        background-color: red;
+    }
+}
+
+/* SMARTPHONE */
+@media screen and (max-width: 768px){
+    body {
+        background-color: aqua;
+    }
+}
