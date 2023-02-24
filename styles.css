@@ -206,6 +206,11 @@ header {
     margin-top: -15px;
 }
 
+.link-card2{
+    text-decoration: none;
+    color: black;
+}
+
 .card2 {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -215,6 +220,11 @@ header {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFFFF;
+}
+
+.card2:hover {
+    transform: scale(1.08);
+    transition-duration: 0.3s;
 }
 
 .card1-container {
