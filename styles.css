@@ -150,6 +150,11 @@ header {
     padding-right: 25px;
 }
 
+.elem-filtre:hover {
+    transform: scale(1.15);
+    transition-duration: 0.5s;
+}
+
 .icone-filtre {
     margin-right: 10px;
     color: #0065fc;
