@@ -298,12 +298,14 @@ header {
     flex-direction: row;
 }
 
+
+
 .populaires-graph > h2 {
-    flex-basis: 80%;
+    flex-basis: 90%;
 }
 
 .fa-chart-line {
-    flex-basis: 20%;
+    flex-basis: 10%;
     margin: auto;
 }
 
