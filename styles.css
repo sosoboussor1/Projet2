@@ -3,6 +3,7 @@ body {
     font-family: Raleway, sans-serif;
     margin: 0px;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 h1 {
@@ -418,6 +419,17 @@ ul {
 @media screen and (max-width: 992px){
     .elem-activites {
         width: 200px;
+        height: 260px;
+    }
+
+    .elem-activites > img {
+        height: 70%;
+    }
+
+    .elem-activites > h3 {
+        margin: 0px;
+        text-align: center;
+        margin-top: 15px;
     }
 }
 
@@ -459,13 +471,22 @@ ul {
         margin-bottom: 30px;
         flex-wrap: wrap;
     }
+
+    .container-activites-marseille {
+        justify-content: center;
+    }
 }
 
 /* SMARTPHONE */
 @media screen and (max-width: 768px){
     
+    #main {
+        margin: 0px;
+    }
+
     body {
         margin-left: 0px;
+        margin-right: 0px;
     }
 
     header {
