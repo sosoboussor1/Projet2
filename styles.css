@@ -189,7 +189,9 @@ button {
 .card1 {
     width: 245px;
     background-color: #FFFFFF;
-    border: solid 5px;
+    border-top: solid 5px;
+    border-left: solid 5px;
+    border-right: solid 5px;
     border-color: #FFFFFF;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px 20px 20px 20px;
@@ -308,7 +310,8 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
+
 }
 
 .populaires-graph {
@@ -334,13 +337,15 @@ button {
 .container-activites-marseille {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .elem-activites {
-    flex-basis: 25%;
+    flex-basis: 20%;
     height: 440px;
-    width: 300px;
+    width: 270px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 20px 20px 20px 20px;
 }
@@ -366,8 +371,9 @@ button {
 .titre-elem-activites {
     border-radius: 0px 0px 20px 20px;
     margin-left: 40px;
-    margin-bottom: 40px;
 }
+
+
 
 #activites-marseille {
     margin-bottom: 100px;
@@ -410,7 +416,49 @@ ul {
 
 /* TABLETTES */
 @media screen and (max-width: 992px){
-    
+    .elem-activites {
+        width: 200px;
+    }
+}
+
+/*RUPTURE SECTION HEBERGEMENTS*/
+@media screen and (max-width: 1343px){
+    .hebergements-marseille {
+        flex-basis: 100%;
+    }
+
+    .hebergements-marseille > h2 {
+        margin: 0px;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .global-marseille {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    #hebergements {
+        margin-top: 40px;
+    }
+
+    .hebergements-populaires {
+        flex-basis: 100%;
+    }
+
+    .hebergements-marseille > h3 {
+        margin: 0px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        text-align: center;
+    }
+
+    .global-populaires {
+        flex-direction: row;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
 }
 
 /* SMARTPHONE */
@@ -492,6 +540,10 @@ ul {
         display: inline-flex;
     }
 
+    #section-recherche {
+        margin-bottom: 40px;
+    }
+
     button {
         display: block;
         border: 0px;
@@ -499,6 +551,7 @@ ul {
         width: 45px;
         border-radius: 0px 15px 15px 0px;
         height: 46px;
+        color: white;
     }
 
     button > i {
@@ -523,5 +576,7 @@ ul {
         gap: 16px;
         margin-top: -28px;
     }
+
+
 
 }
