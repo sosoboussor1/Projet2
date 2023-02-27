@@ -89,7 +89,6 @@ button {
 
 .ensemble-recherche {
     display: inline-flex;
-    margin: auto;
 }
 
 .champ-recherche-localisation {
@@ -118,8 +117,24 @@ button {
     padding-right: 15px;
 }
 
+#filtres {
+    margin-top: 40px;
+}
+
+.ensemble-filtres { 
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
 .titre-filtres {
     font-size: 18px;
+    padding: 0px;
+}
+
+#filtres > p {
+    margin-top: 20px;
 }
 
 .info-filtre {
@@ -137,8 +152,8 @@ button {
     display: flex;
     font-size: 17px;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
-    margin-top: 40px;
     font-weight: 700;
 }
 
@@ -468,10 +483,6 @@ ul {
         height: 40px;
     }
 
-    .ensemble-recherche {
-        margin: 0 auto;
-        justify-content: center;
-    }
 
     .icone-rechercher {
         height: 40px;
@@ -492,6 +503,25 @@ ul {
 
     button > i {
         margin-top: 17px;
+    }
+
+    .elem-filtre > h3 {
+        font-size: 11px;
+    }
+
+    .icone-filtre {
+        font-size: 15px;
+    }
+
+    .elem-filtre {
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 125px;
+    }
+
+    .filtres {
+        gap: 16px;
+        margin-top: -28px;
     }
 
 }
