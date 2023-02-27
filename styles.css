@@ -49,7 +49,7 @@ header {
 .item-nav-header {
     text-decoration: none;
     color: black;
-    padding-top: 42px;
+    padding-top: 33px;
     padding-left: 15px;
     padding-right: 15px;
     font-weight: 200;
@@ -383,7 +383,6 @@ button {
 
 footer {
     background-color: #f2f2f2;
-    height: 225px;
 }
 
 .container-footer {
@@ -391,6 +390,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 /*.elem-footer {
@@ -457,6 +457,7 @@ ul {
 
     .hebergements-populaires {
         flex-basis: 100%;
+        padding-right: 10px;
     }
 
     .hebergements-marseille > h3 {
@@ -474,6 +475,14 @@ ul {
 
     .container-activites-marseille {
         justify-content: center;
+    }
+}
+
+/*RUPTURE FOOTER*/
+@media screen and (max-width: 588px){
+    .container-footer {
+        flex-direction: column;
+        text-align: center;
     }
 }
 
