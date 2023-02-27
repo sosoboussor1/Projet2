@@ -74,9 +74,6 @@ header {
     font-size: 16px;
 }
 
-.ensemble-recherche {
-    display: inline-flex;
-}
 
 .icone-recherche {
     margin: auto;
@@ -393,14 +390,58 @@ ul {
 
 /* TABLETTES */
 @media screen and (max-width: 992px){
-    body {
-        background-color: red;
-    }
+    
 }
 
 /* SMARTPHONE */
 @media screen and (max-width: 768px){
+    
     body {
-        background-color: aqua;
+        margin: 0px;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .logo-header {
+        flex-basis: auto;
+        margin-top: 0px;
+    }
+
+    .nav-header {
+        flex-basis: auto;
+        text-align: center;
+    }
+
+    header > a {
+        text-align: center;
+    }
+
+    .list-nav-header {
+        gap: 0px;
+        padding-inline-start: 0px;
+        padding-top: 0px;
+    }
+
+    .item-nav-header {
+        max-width: 120px;
+        padding-bottom: 8px;
+    }
+
+    .item-nav-header:hover {
+        border-top: none;
+        border-bottom: solid;
+        border-color: #0065fc;
+        color: #0065fc;
+    }
+    
+    .item-nav-header:focus {
+        border-top: none;
+        border-bottom: solid;
+        border-color: #0065fc;
+        color: #0065fc;
     }
 }
