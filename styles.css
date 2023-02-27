@@ -1,7 +1,8 @@
 body {
     max-width: 1400px;
     font-family: Raleway, sans-serif;
-    margin-left: 20px;
+    margin: 0px;
+    margin-left: 10px;
 }
 
 h1 {
@@ -82,9 +83,13 @@ header {
     border-radius: 15px 0px 0px 15px;
 }
 
+button {
+    display: none;
+}
+
 .ensemble-recherche {
     display: inline-flex;
-    margin: 0;
+    margin: auto;
 }
 
 .champ-recherche-localisation {
@@ -397,13 +402,14 @@ ul {
 @media screen and (max-width: 768px){
     
     body {
-        margin: 0px;
+        margin-left: 0px;
     }
 
     header {
         flex-direction: column;
         justify-content: center;
         padding-top: 10px;
+        font-size: 16px;
     }
 
     .logo-header {
@@ -427,8 +433,9 @@ ul {
     }
 
     .item-nav-header {
-        max-width: 120px;
+        max-width: max-content;
         padding-bottom: 8px;
+        
     }
 
     .item-nav-header:hover {
@@ -444,4 +451,47 @@ ul {
         border-color: #0065fc;
         color: #0065fc;
     }
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .icone-recherche {
+        padding: 15px;
+    }
+
+    .boutton-rechercher-localisation {
+        display: none;
+    }
+
+    .champ-recherche-localisation {
+        height: 40px;
+    }
+
+    .ensemble-recherche {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .icone-rechercher {
+        height: 40px;
+    }
+
+    .form-recherche {
+        display: inline-flex;
+    }
+
+    button {
+        display: block;
+        border: 0px;
+        background-color: #0065fc;
+        width: 45px;
+        border-radius: 0px 15px 15px 0px;
+        height: 46px;
+    }
+
+    button > i {
+        margin-top: 17px;
+    }
+
 }
