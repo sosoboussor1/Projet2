@@ -605,6 +605,7 @@ ul {
     .filtres {
         gap: 16px;
         margin-top: -28px;
+        justify-content: center;
     }
 
 
