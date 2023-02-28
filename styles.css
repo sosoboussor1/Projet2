@@ -204,6 +204,7 @@ button {
     border: 0px;
     text-decoration: none;
     color: black;
+    box-shadow: none;
 }
 
 .card1:hover {
