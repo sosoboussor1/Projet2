@@ -1,9 +1,7 @@
 body {
     max-width: 1400px;
     font-family: Raleway, sans-serif;
-    margin: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: auto;
 }
 
 h1 {
@@ -26,6 +24,18 @@ ol {
 header {
     display: flex;
     justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+main {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .logo-header {
