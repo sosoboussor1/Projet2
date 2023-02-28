@@ -84,6 +84,8 @@ footer {
 
 #section-recherche > p {
     font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 18px;
 }
 
 
@@ -129,7 +131,7 @@ button {
 }
 
 #filtres {
-    margin-top: 54px;
+    margin-top: 40px;
 }
 
 .ensemble-filtres { 
@@ -232,7 +234,7 @@ button {
 }
 
 .card1-container > h3{
-    margin-top: -2px;
+    margin-top: 5px;
 }
 
 .card1-container > p{
@@ -249,7 +251,7 @@ button {
     grid-template-columns: 2fr 3fr;
     gap: 10px;
     width: 340px;
-    height: 140px;
+    height: 150px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFFFF;
@@ -261,28 +263,34 @@ button {
 }
 
 .card1-container {
-    margin-left: 20px;
+    margin-left: 13px;
 }
 
 .card2-container > h3 {
     margin-top: 10px;
+    margin-bottom: -10px;
 }
 
 .card2-container {
-    margin-left: 30px;
     margin-right: 5px;
     margin-bottom: 3px;
+    margin-left: 7px;
 }
 
 .card2-img {
     width: 100%;
     height: 140px;
     object-fit: cover;
+    border: 5px solid white;
     border-radius: 20px 0px 0px 20px;
 }
 
 .card2-note {
     margin-top: 30px;
+}
+
+.exept-card2 {
+    margin-top: 52px;
 }
 
 .fa-chart-line {
@@ -316,7 +324,7 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 45px;
+    gap: 30px;
     justify-content: center;
 }
 
@@ -324,7 +332,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
 }
 
 .populaires-graph {
@@ -344,7 +352,15 @@ button {
 }
 
 .hebergements-marseille > h2, .hebergements-marseille > h3{
-    margin-left: 68px;
+    margin-left: 36px;
+}
+
+.hebergements-marseille > h2 {
+    margin-top: 27px;
+}
+
+.hebergements-marseille > h3 {
+    margin-bottom: 25px;
 }
 
 .container-activites-marseille {
@@ -358,7 +374,7 @@ button {
 .elem-activites {
     flex-basis: 20%;
     height: 440px;
-    width: 270px;
+    width: 300px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 20px 20px 20px 20px;
 }
