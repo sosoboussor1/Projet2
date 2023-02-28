@@ -608,6 +608,8 @@ ul {
         justify-content: center;
     }
 
-
+    .card2 {
+        width: 330px;
+    }
 
 }
