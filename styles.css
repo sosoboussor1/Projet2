@@ -545,8 +545,8 @@ ul {
         color: #0065fc;
     }
     main {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .icone-recherche {
@@ -568,6 +568,16 @@ ul {
 
     .form-recherche {
         display: inline-flex;
+    }
+
+    .ensemble-recherche {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .icone-recherche {
+        margin: 0px;
     }
 
     #section-recherche {
@@ -612,4 +622,17 @@ ul {
         width: 330px;
     }
 
+    .hebergements-marseille {
+        border-radius: 0px 0px 0px 0px;
+        background-color: white;
+    }
+
+    .hebergements-populaires {
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    #hebergements {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
