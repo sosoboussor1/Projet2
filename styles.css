@@ -333,21 +333,22 @@ button {
     flex-direction: column;
     justify-content: center;
     gap: 25px;
+    padding-left: 37px;
 }
 
 .populaires-graph {
     display: flex;
     flex-direction: row;
+    padding-left: 37px;
+    margin-top: -24px;
 }
 
-
-
 .populaires-graph > h2 {
-    flex-basis: 90%;
+    flex-basis: 86%;
 }
 
 .fa-chart-line {
-    flex-basis: 10%;
+    flex-basis: 14%;
     margin: auto;
 }
 
@@ -442,24 +443,6 @@ ul {
     margin-bottom: 25px;
 }
 
-/* TABLETTES */
-@media screen and (max-width: 992px){
-    .elem-activites {
-        width: 200px;
-        height: 260px;
-    }
-
-    .elem-activites > img {
-        height: 70%;
-    }
-
-    .elem-activites > h3 {
-        margin: 0px;
-        text-align: center;
-        margin-top: 15px;
-    }
-}
-
 /*RUPTURE SECTION HEBERGEMENTS*/
 @media screen and (max-width: 1343px){
     .hebergements-marseille {
@@ -498,10 +481,43 @@ ul {
         flex-direction: row;
         margin-bottom: 30px;
         flex-wrap: wrap;
+        padding-left: 0px;
     }
 
     .container-activites-marseille {
         justify-content: center;
+    }
+
+    .populaires-graph {
+        margin-top: 0px;
+        margin-left: 45px;
+    }
+
+    .populaires-graph > h2 {
+        flex-basis: 90%;
+    }
+    
+    .fa-chart-line {
+        flex-basis: 10%;
+        margin: auto;
+    }
+}
+
+/* TABLETTES */
+@media screen and (max-width: 992px){
+    .elem-activites {
+        width: 200px;
+        height: 260px;
+    }
+
+    .elem-activites > img {
+        height: 70%;
+    }
+
+    .elem-activites > h3 {
+        margin: 0px;
+        text-align: center;
+        margin-top: 15px;
     }
 }
 
