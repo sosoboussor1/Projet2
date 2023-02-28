@@ -549,6 +549,16 @@ ul {
         margin-right: 0px;
     }
 
+    #section-recherche > h1 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #section-recherche > p {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
     .icone-recherche {
         padding: 15px;
     }
@@ -618,6 +628,15 @@ ul {
         justify-content: center;
     }
 
+    #filtres > p {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .titre-filtre {
+        padding-left: 15px;
+    }
+
     .card2 {
         width: 330px;
     }
@@ -634,5 +653,10 @@ ul {
     #hebergements {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    #activites-marseille > h2 {
+        margin-right: 15px;
+        margin-left: 15px;
     }
 }
