@@ -559,6 +559,14 @@ ul {
         margin-right: 15px;
     }
 
+    #section-recherche {
+        margin-bottom: 0px;
+    }
+
+    #filtres {
+        margin-top: 0px;
+    }
+
     .icone-recherche {
         padding: 15px;
     }
