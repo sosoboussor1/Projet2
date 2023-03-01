@@ -525,7 +525,11 @@ ul {
 @media screen and (max-width: 588px){
     .container-footer {
         flex-direction: column;
-        text-align:center;
+        text-align:left;
+    }
+
+    .elem-footer {
+        margin-left: 45px;
     }
 
     footer {
