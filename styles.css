@@ -443,8 +443,13 @@ ul {
     margin-bottom: 25px;
 }
 
+.link-marseille {
+    text-decoration: none;
+    color: black;
+}
+
 /*RUPTURE SECTION HEBERGEMENTS*/
-@media screen and (max-width: 1343px){
+@media screen and (max-width: 1390px){
     .hebergements-marseille {
         flex-basis: 100%;
     }
