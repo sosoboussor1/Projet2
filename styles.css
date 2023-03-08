@@ -2,6 +2,7 @@ body {
     max-width: 1400px;
     font-family: Raleway, sans-serif;
     margin: auto;
+    overflow: scroll;
 }
 
 h1 {
@@ -451,11 +452,6 @@ ul {
     color: black;
 }
 
-#activites-marseille {
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
 /*RUPTURE SECTION HEBERGEMENTS*/
 @media screen and (max-width: 1390px){
     .hebergements-marseille {
@@ -470,8 +466,12 @@ ul {
     }
 
     .global-marseille {
-        margin-right: 15px;
-        margin-left: 15px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .card1 {
+        width: 300px;
     }
 
     #hebergements {
@@ -480,7 +480,6 @@ ul {
 
     .hebergements-populaires {
         flex-basis: 100%;
-        padding-right: 10px;
     }
 
     .hebergements-marseille > h3 {
@@ -495,6 +494,8 @@ ul {
         margin-bottom: 30px;
         flex-wrap: wrap;
         padding-left: 0px;
+        margin-right: 5px;
+        margin-left: 5px;
     }
 
     .container-activites-marseille {
@@ -519,7 +520,7 @@ ul {
 /* TABLETTES */
 @media screen and (max-width: 992px){
     .elem-activites {
-        width: 200px;
+        width: 210px;
         height: 260px;
     }
 
@@ -713,8 +714,17 @@ ul {
         padding-left: 15px;
     }
 
+    .populaires-graph {
+        margin-left: 0px;
+        padding-left: 13px;
+    }
+
     .card2 {
-        width: 330px;
+        max-width: 300px;
+    }
+
+    .exept-card2 {
+        margin-top: 32px;
     }
 
     .hebergements-marseille {
@@ -729,6 +739,11 @@ ul {
     #hebergements {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .elem-activites {
+        width: 300px;
+        height: 260px;
     }
 
     #activites-marseille > h2 {
