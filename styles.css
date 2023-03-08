@@ -631,6 +631,12 @@ ul {
         margin-top: 0px;
     }
 
+    .elem-filtre {
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 124px;
+    }
+
     .icone-recherche {
         padding: 15px;
     }
@@ -689,8 +695,6 @@ ul {
     }
 
     .elem-filtre {
-        padding-right: 15px;
-        padding-left: 15px;
         width: 125px;
     }
 
@@ -701,8 +705,8 @@ ul {
     }
 
     #filtres > p {
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
     .titre-filtre {
