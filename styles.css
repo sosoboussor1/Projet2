@@ -38,7 +38,7 @@ main {
 .logo-header {
     flex-basis: 75%;
     max-width: 60px;
-    margin-top: 35px;
+    margin-top: 36px;
 }
 
 .nav-header {
@@ -50,7 +50,7 @@ main {
 .list-nav-header {
     display: inline-flex;
     gap: 50px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .item-nav-header {
@@ -520,8 +520,12 @@ ul {
 /* TABLETTES */
 @media screen and (max-width: 992px){
     .elem-activites {
-        width: 210px;
-        height: 260px;
+        width: 182px;
+        height: 267px;
+    }
+
+    .container-activites-marseille {
+        justify-content: space-between;
     }
 
     .elem-activites > img {
@@ -568,6 +572,7 @@ ul {
         justify-content: center;
         padding-top: 10px;
         font-size: 16px;
+        margin: 0px;
     }
 
     .logo-header {
@@ -588,6 +593,12 @@ ul {
         gap: 0px;
         padding-inline-start: 0px;
         padding-top: 0px;
+        display: flex;
+    }
+
+    .list-nav-header > li {
+        flex-grow: 0.5;
+        padding-bottom: 15px;
     }
 
     .item-nav-header {
@@ -598,17 +609,24 @@ ul {
 
     .item-nav-header:hover {
         border-top: none;
-        border-bottom: solid;
-        border-color: #0065fc;
-        color: #0065fc;
     }
     
     .item-nav-header:focus {
         border-top: none;
+    }
+
+    .list-nav-header > li {
+        border-bottom: solid;
+        border-color: #f2f2f2;
+        color: #0065fc;
+    }
+
+    .list-nav-header > li:hover {
         border-bottom: solid;
         border-color: #0065fc;
         color: #0065fc;
     }
+
     main {
         margin-left: 0px;
         margin-right: 0px;
