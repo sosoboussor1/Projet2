@@ -11,19 +11,19 @@ h1 {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 700;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 
 ol {
     list-style-type: none;
 }
-/**/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,8 @@ main {
 .logo-header {
     flex-basis: 75%;
     max-width: 60px;
-    margin-top: 36px;
+    margin-top: 40px;
+    height: 16px;
 }
 
 .nav-header {
@@ -85,6 +86,7 @@ main {
     font-size: 16px;
     margin-top: -10px;
     margin-bottom: 18px;
+    font-weight: 400;
 }
 
 
@@ -140,13 +142,12 @@ button {
     flex-wrap: wrap;
 }
 
-.titre-filtres {
+.titre-filtre {
     font-size: 18px;
-    padding: 0px;
 }
 
 #filtres>p {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
@@ -280,6 +281,10 @@ button {
     margin-top: 30px;
 }
 
+.card2-ex {
+    margin-top: 50px;
+}
+
 .exept-card2 {
     margin-top: 52px;
 }
@@ -293,7 +298,7 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 68px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .card1-container>h3 {
@@ -331,7 +336,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 25px;
+    gap: 28px;
     padding-left: 37px;
 }
 
@@ -342,7 +347,7 @@ button {
     margin-top: -24px;
 }
 
-.populaires-graph>h2 {
+.populaires-graph>h1 {
     flex-basis: 86%;
 }
 
@@ -351,17 +356,18 @@ button {
     margin: auto;
 }
 
-.hebergements-marseille>h2,
-.hebergements-marseille>h3 {
+.hebergements-marseille>h1,
+.hebergements-marseille>h2 {
     margin-left: 36px;
 }
 
-.hebergements-marseille>h2 {
-    margin-top: 27px;
+.hebergements-marseille>h1 {
+    margin-top: 35px;
 }
 
-.hebergements-marseille>h3 {
-    margin-bottom: 25px;
+.hebergements-marseille>h2 {
+    margin-bottom: 35px;
+    margin-top: 35px;
 }
 
 .container-activites-marseille {
@@ -413,7 +419,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 40px;
+    padding-left: 70px;
 }
 
 .elem-footer {
@@ -429,13 +435,18 @@ ul {
     text-decoration: none;
 }
 
+.elem-footer > h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
 .elem-list-footer {
     padding: 0px;
     font-size: 16px;
 }
 
 .li-footer {
-    margin-bottom: 25px;
+    margin-bottom: 12px;
 }
 
 .link-marseille {
