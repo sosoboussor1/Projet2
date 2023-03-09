@@ -510,11 +510,11 @@ ul {
     }
 
     .populaires-graph>h2 {
-        flex-basis: 90%;
+        flex-basis: 98%;
     }
 
     .fa-chart-line {
-        flex-basis: 10%;
+        flex-basis: 2%;
         margin: auto;
     }
 }
