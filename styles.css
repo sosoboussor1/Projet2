@@ -12,10 +12,12 @@ h1 {
 
 h2 {
     font-size: 22px;
+    font-weight: 700;
 }
 
 h3 {
     font-size: 18px;
+    font-weight: 700;
 }
 
 ol {
@@ -50,7 +52,7 @@ main {
 .list-nav-header {
     display: inline-flex;
     gap: 50px;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .item-nav-header {
@@ -217,11 +219,6 @@ button {
     box-shadow: none;
 }
 
-.card1:hover {
-    transform: scale(1.15);
-    transition-duration: 0.3s;
-}
-
 .card1 > img {
     width: 100%;
     object-fit: cover;
@@ -252,11 +249,6 @@ button {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFFFF;
-}
-
-.card2:hover {
-    transform: scale(1.08);
-    transition-duration: 0.3s;
 }
 
 .card1-container {
@@ -547,7 +539,11 @@ ul {
     }
 
     .elem-footer {
-        margin-left: 45px;
+        margin-left: 0px;
+    }
+
+    .container-footer {
+        padding-left: 30px;
     }
 
     footer {
@@ -622,6 +618,12 @@ ul {
     }
 
     .list-nav-header > li:hover {
+        border-bottom: solid;
+        border-color: #0065fc;
+        color: #0065fc;
+    }
+
+    .list-nav-header > li:focus {
         border-bottom: solid;
         border-color: #0065fc;
         color: #0065fc;
@@ -759,14 +761,19 @@ ul {
         flex-direction: column-reverse;
     }
 
+    .container-activites-marseille {
+        margin: 0px 10px;
+        justify-content: center;
+    }
+
     .elem-activites {
         width: 300px;
         height: 260px;
     }
 
     #activites-marseille > h2 {
-        margin-right: 15px;
-        margin-left: 15px;
+        text-align: center;
+
     }
     /*test*/
 }
