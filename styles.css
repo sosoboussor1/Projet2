@@ -81,7 +81,7 @@ main {
     color: #0065fc;
 }
 
-#section-recherche > p {
+#section-recherche>p {
     font-size: 16px;
     margin-top: -10px;
     margin-bottom: 18px;
@@ -133,7 +133,7 @@ button {
     margin-top: 40px;
 }
 
-.ensemble-filtres { 
+.ensemble-filtres {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -145,7 +145,7 @@ button {
     padding: 0px;
 }
 
-#filtres > p {
+#filtres>p {
     margin-top: 20px;
 }
 
@@ -159,6 +159,14 @@ button {
     color: #0065fc;
     font-weight: 700;
     margin-right: 5px;
+}
+
+.info-filtre-contenu {
+    align-self: center;
+}
+
+.p-info {
+    line-height: 27px;
 }
 
 .filtres {
@@ -214,7 +222,7 @@ button {
     box-shadow: none;
 }
 
-.card1 > img {
+.card1>img {
     width: 100%;
     object-fit: cover;
     border-color: #FFFFFF;
@@ -222,15 +230,15 @@ button {
     height: 124px;
 }
 
-.card1-container > h3{
+.card1-container>h3 {
     margin-top: 5px;
 }
 
-.card1-container > p{
+.card1-container>p {
     margin-top: -8px;
 }
 
-.link-card2{
+.link-card2 {
     text-decoration: none;
     color: black;
 }
@@ -250,7 +258,7 @@ button {
     margin-left: 13px;
 }
 
-.card2-container > h3 {
+.card2-container>h3 {
     margin-top: 10px;
 }
 
@@ -288,11 +296,11 @@ button {
     margin-top: 70px;
 }
 
-.card1-container > h3 {
+.card1-container>h3 {
     font-size: 16px;
 }
 
-.card1-container > p {
+.card1-container>p {
     font-size: 14px;
 }
 
@@ -334,7 +342,7 @@ button {
     margin-top: -24px;
 }
 
-.populaires-graph > h2 {
+.populaires-graph>h2 {
     flex-basis: 86%;
 }
 
@@ -343,15 +351,16 @@ button {
     margin: auto;
 }
 
-.hebergements-marseille > h2, .hebergements-marseille > h3{
+.hebergements-marseille>h2,
+.hebergements-marseille>h3 {
     margin-left: 36px;
 }
 
-.hebergements-marseille > h2 {
+.hebergements-marseille>h2 {
     margin-top: 27px;
 }
 
-.hebergements-marseille > h3 {
+.hebergements-marseille>h3 {
     margin-bottom: 25px;
 }
 
@@ -435,12 +444,12 @@ ul {
 }
 
 /*RUPTURE SECTION HEBERGEMENTS*/
-@media screen and (max-width: 1390px){
+@media screen and (max-width: 1390px) {
     .hebergements-marseille {
         flex-basis: 100%;
     }
 
-    .hebergements-marseille > h2 {
+    .hebergements-marseille>h2 {
         margin: 0px;
         text-align: center;
         margin-top: 25px;
@@ -464,7 +473,7 @@ ul {
         flex-basis: 100%;
     }
 
-    .hebergements-marseille > h3 {
+    .hebergements-marseille>h3 {
         margin: 0px;
         margin-top: 18px;
         margin-bottom: 18px;
@@ -489,10 +498,10 @@ ul {
         margin-left: 45px;
     }
 
-    .populaires-graph > h2 {
+    .populaires-graph>h2 {
         flex-basis: 90%;
     }
-    
+
     .fa-chart-line {
         flex-basis: 10%;
         margin: auto;
@@ -500,7 +509,7 @@ ul {
 }
 
 /* TABLETTES */
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
     .elem-activites {
         width: 182px;
         height: 267px;
@@ -510,40 +519,20 @@ ul {
         justify-content: space-between;
     }
 
-    .elem-activites > img {
+    .elem-activites>img {
         height: 70%;
     }
 
-    .elem-activites > h3 {
+    .elem-activites>h3 {
         margin: 0px;
         text-align: center;
         margin-top: 15px;
     }
 }
 
-/*RUPTURE FOOTER*/
-@media screen and (max-width: 588px){
-    .container-footer {
-        flex-direction: column;
-        text-align:left;
-    }
-
-    .elem-footer {
-        margin-left: 0px;
-    }
-
-    .container-footer {
-        padding-left: 30px;
-    }
-
-    footer {
-        margin: 0px;
-    }
-}
-
 /* SMARTPHONE */
-@media screen and (max-width: 768px){
-    
+@media screen and (max-width: 768px) {
+
     #main {
         margin: 0px;
     }
@@ -571,7 +560,7 @@ ul {
         text-align: center;
     }
 
-    header > a {
+    header>a {
         text-align: center;
     }
 
@@ -582,7 +571,7 @@ ul {
         display: flex;
     }
 
-    .list-nav-header > li {
+    .list-nav-header>li {
         flex-grow: 0.5;
         padding-bottom: 15px;
     }
@@ -590,30 +579,30 @@ ul {
     .item-nav-header {
         max-width: max-content;
         padding-bottom: 8px;
-        
+
     }
 
     .item-nav-header:hover {
         border-top: none;
     }
-    
+
     .item-nav-header:focus {
         border-top: none;
     }
 
-    .list-nav-header > li {
+    .list-nav-header>li {
         border-bottom: solid;
         border-color: #f2f2f2;
         color: #0065fc;
     }
 
-    .list-nav-header > li:hover {
+    .list-nav-header>li:hover {
         border-bottom: solid;
         border-color: #0065fc;
         color: #0065fc;
     }
 
-    .list-nav-header > li:focus {
+    .list-nav-header>li:focus {
         border-bottom: solid;
         border-color: #0065fc;
         color: #0065fc;
@@ -624,12 +613,12 @@ ul {
         margin-right: 0px;
     }
 
-    #section-recherche > h1 {
+    #section-recherche>h1 {
         margin-left: 15px;
         margin-right: 15px;
     }
 
-    #section-recherche > p {
+    #section-recherche>p {
         margin-left: 15px;
         margin-right: 15px;
     }
@@ -646,6 +635,11 @@ ul {
         padding-left: 8px;
         padding-right: 8px;
         width: 124px;
+        height: 38px;
+    }
+
+    .filtres {
+        align-self: center;
     }
 
     .icone-recherche {
@@ -693,11 +687,11 @@ ul {
         color: white;
     }
 
-    button > i {
+    button>i {
         margin-top: 17px;
     }
 
-    .elem-filtre > h3 {
+    .elem-filtre>h3 {
         font-size: 11px;
     }
 
@@ -711,11 +705,11 @@ ul {
 
     .filtres {
         gap: 16px;
-        margin-top: -28px;
+        margin-top: 0px;
         justify-content: center;
     }
 
-    #filtres > p {
+    #filtres>p {
         margin-left: 8px;
         margin-right: 8px;
     }
@@ -761,9 +755,35 @@ ul {
         height: 260px;
     }
 
-    #activites-marseille > h2 {
+    #activites-marseille>h2 {
         text-align: center;
 
     }
-    /*test*/
+}
+
+/*RUPTURE FILTRES*/
+@media screen and (max-width: 746px) {
+    .titre-filtre {
+        margin-bottom: -15px;
+    }
+}
+
+/*RUPTURE FOOTER*/
+@media screen and (max-width: 588px) {
+    .container-footer {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .elem-footer {
+        margin-left: 0px;
+    }
+
+    .container-footer {
+        padding-left: 30px;
+    }
+
+    footer {
+        margin: 0px;
+    }
 }
