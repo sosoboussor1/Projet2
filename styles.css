@@ -181,11 +181,6 @@ button {
     padding-right: 25px;
 }
 
-.elem-filtre:hover {
-    transform: scale(1.15);
-    transition-duration: 0.5s;
-}
-
 .icone-filtre {
     margin-right: 10px;
     color: #0065fc;
@@ -374,11 +369,6 @@ button {
     width: 300px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 20px 20px 20px 20px;
-}
-
-.elem-activites:hover {
-    transform: scale(1.04);
-    transition-duration: 0.3s;
 }
 
 .img-elem-activites {
