@@ -242,6 +242,7 @@ button {
 .link-card2 {
     text-decoration: none;
     color: black;
+    border: 5px solid white;
 }
 
 .card2 {
@@ -249,7 +250,7 @@ button {
     grid-template-columns: 2fr 3fr;
     gap: 10px;
     width: 340px;
-    height: 150px;
+    height: 140px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFFFF;
@@ -273,7 +274,6 @@ button {
     width: 100%;
     height: 140px;
     object-fit: cover;
-    border: 5px solid white;
     border-radius: 20px 0px 0px 20px;
 }
 
@@ -407,7 +407,7 @@ button {
 
 
 #activites-marseille {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     margin-top: 70px;
 }
 
@@ -462,8 +462,8 @@ ul {
 
     .hebergements-marseille>h2 {
         margin: 0px;
-        text-align: center;
         margin-top: 25px;
+        margin-left: 40px;
         margin-bottom: 25px;
     }
 
@@ -516,6 +516,87 @@ ul {
     .fa-chart-line {
         flex-basis: 10%;
         margin: auto;
+    }
+}
+
+/* conformément à la maquette il faut réduire la taille des card à partir de 1024px et non 992px*/
+/*1024px*/
+@media screen and (max-width: 1025px){
+    
+    body {
+        margin-right: 37px;
+        margin-left: 37px;
+    }
+
+    .card1 {
+        width: 250px;
+        height: 200px;
+    }
+
+    .card1-container>h3 {
+        margin-top: 0px;
+    }
+
+    .card2 {
+        width: 250px;
+        height: 140px;
+    }
+
+    .card2-container > p {
+        margin-bottom: 10px;
+    }
+
+    .global-populaires {
+        gap: 41px;
+    }
+
+    .hebergements-marseille > h1 {
+        margin-left: 40px;
+    }
+
+    #hebergements {
+        gap: 53px;
+    }
+
+    .hebergements-populaires {
+        padding-bottom: 20px;
+    }
+
+    .populaires-graph {
+        padding-left: 0px;
+    }
+
+    .desc-card2 {
+        margin-top: -10px;
+    }
+
+    .card2-note {
+        margin-top: 27px;
+    }
+
+    .exept-card2-2 {
+        margin-top: -1px;
+    }
+
+    .container-activites-marseille {
+        gap: 61px;
+    }
+
+    .elem-activites {
+        height: 270px;
+        width: 182px;
+    }
+
+    .elem-activites>img {
+        height: 77%;
+    }
+
+    .titre-calanques {
+        margin-top: 6px;
+    }
+
+    .titre-dame {
+        margin-top: 6px;
     }
 }
 
