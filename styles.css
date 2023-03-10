@@ -85,7 +85,7 @@ main {
 #section-recherche>p {
     font-size: 16px;
     margin-top: -10px;
-    margin-bottom: 18px;
+    margin-bottom: 25px;
     font-weight: 400;
 }
 
@@ -770,7 +770,7 @@ ul {
     }
 
     #section-recherche {
-        margin-bottom: 40px;
+        margin-bottom: 34px;
     }
 
     button {
@@ -816,7 +816,7 @@ ul {
 
     .populaires-graph {
         margin-left: 0px;
-        padding-left: 13px;
+        padding-left: 20px;
     }
 
     .card2 {
@@ -839,6 +839,7 @@ ul {
     #hebergements {
         display: flex;
         flex-direction: column-reverse;
+        gap: 26px;
     }
 
     .container-activites-marseille {
@@ -848,12 +849,19 @@ ul {
 
     .elem-activites {
         width: 300px;
-        height: 260px;
+        height: 200px;
     }
 
-    #activites-marseille>h2 {
-        text-align: center;
+    .hebergements-marseille > h1{
+        margin-left: 20px;
+    }
 
+    .hebergements-marseille > h2{
+        margin-left: 20px;
+    }
+
+    #activites-marseille > h1 {
+        margin-left: 20px;
     }
 }
 
