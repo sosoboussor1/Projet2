@@ -598,6 +598,10 @@ ul {
     .titre-dame {
         margin-top: 6px;
     }
+
+    .titre-filtre {
+        margin-bottom: -10px;
+    }
 }
 
 /* TABLETTES */
@@ -783,7 +787,7 @@ ul {
         margin-top: 17px;
     }
 
-    .elem-filtre>h3 {
+    .elem-filtre>h2 {
         font-size: 11px;
     }
 
@@ -850,13 +854,6 @@ ul {
     #activites-marseille>h2 {
         text-align: center;
 
-    }
-}
-
-/*RUPTURE FILTRES*/
-@media screen and (max-width: 746px) {
-    .titre-filtre {
-        margin-bottom: -15px;
     }
 }
 
